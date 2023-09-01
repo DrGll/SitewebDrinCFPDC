@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Contact</title>
+    <link rel="stylesheet" href="contact-style.CSS">
+</head>
+<body>
+    <section>
+        <label for="name">Nom:</label><input id="name" type="text" placeholder="Entrer Votre Nom"><br>
+        <label for="prenom">Prenom:</label><input id="prenom" type="text" placeholder="Entrer Votre Prenom"><br>
+        <label for="adress">Adress:</label><input id="adress" type="text" placeholder="Entrer votre Adress"><br>
+        <label for="postal">Code Postal:</label><input id="postal" type="text"
+            placeholder="Entrer votre Code Postal"><br>
+        <label for="age">Age</label>
+        <input id="age" type="number" min="0" max="99" step="1" value="20"><br>
+        <label for="Genre">Quelle est votre Genre</label><br>
+        <select name="Genre">
+            <option id="male" value="homme">Homme</option>
+            <option id="female" value="femme">Femme</option>
+        </select>
+        <section>
+            <label>Commentair</label><br>
+            <textarea name="Votre Commentair" id="Textbox" cols="50" rows="20"></textarea>
+        </section>
+        <section>
+            <input type="submit" value="envoyer">
+            <input type="submit" value="annuler">
+        </section>
+        <a href="index.html">retourner au page precedente</a>
+</body>
+</html>

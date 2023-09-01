@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire CV</title>
+    <link rel="stylesheet" href="formulaire-style.CSS">
+</head>
+<h1>Formulaire</h1>
+
+<body>
+    <section>
+        <label for="name">Nom:</label><input id="name" type="text" placeholder="Entrer Votre Nom"><br>
+        <label for="prenom">Prenom:</label><input id="prenom" type="text" placeholder="Entrer Votre Prenom"><br>
+        <label for="adress">Adress:</label><input id="adress" type="text" placeholder="Entrer votre Adress"><br>
+        <label for="postal">Code Postal:</label><input id="postal" type="text"
+            placeholder="Entrer votre Code Postal"><br>
+        <label for="age">Age</label>
+        <input id="age" type="number" min="0" max="99" step="1" value="20"><br>
+        <label for="Genre">Quelle est votre Genre</label><br>
+        <select name="Genre">
+            <option id="male" value="homme">Homme</option>
+            <option id="female" value="femme">Femme</option>
+        </select>
+        <section>
+            <p>chocher votre niveaux etudes</p>
+            <input type="checkbox" name="secondaire"><label>secondaire</label><br>
+            <input type="checkbox" name="professionel"><label>professionel</label><br>
+            <input type="checkbox" name="collegiale"><label>collegiale</label><br>
+            <input type="checkbox" name="universitaire"><label>universitaire</label><br>
+            <label for="school">Centre Etude:</label><input id="school" type="text"
+                placeholder="Quelle est votre Centre Études"><br>
+            <label for="Formation">Formation:</label><input id="Formation" type="text"
+                placeholder="Quelle est votre formation"><br>
+        </section>
+        <section>
+            <label>Votre Personalité</label><br>
+            <textarea name="Votre Personalité" id="Textbox" cols="30" rows="10"></textarea><br>
+            <label>Votre Experience</label><br>
+            <textarea name="Votre Experience" id="Textbox" cols="50" rows="20"></textarea><br>
+        </section>
+        <section>
+            <input type="submit" value="envoyer">
+            <input type="submit" value="annuler">
+        </section>
+    </section>
+    <a href="index.html">retourner au page precedente</a>
+    <img src="maxresdefault.jpg">
+</body>
+
+</html>

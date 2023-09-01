@@ -1,0 +1,42 @@
+body
+{
+    background-color: darkslategrey;
+    color: white;
+}
+
+label
+{
+    font-size: 20px;
+}
+
+input
+{
+    font-size: 20px;
+}
+
+option
+{
+    font-size: 20px;
+}
+
+#male
+{
+    color: blue;
+}
+
+#female
+{
+    color: blueviolet;
+}
+
+textarea
+{
+    font-size: 16px;
+}
+
+a
+{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
